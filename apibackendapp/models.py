@@ -4,7 +4,7 @@ from django.db.models.signals import post_save
 from django.conf import settings
 from rest_framework.authtoken.models import Token
 
-# Create your models here.
+# Create your  wonderfulmodels here.
 
 #create a Depatment model class by inheriting the model class
 @receiver(post_save, sender=settings.AUTH_USER_MODEL)
